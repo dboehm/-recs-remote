@@ -1,0 +1,20 @@
+/* List view */
+.detail-view .content {
+    display: flex;
+}
+
+.detail-view .nodeinfo-grid {
+    flex: 2;
+}
+
+.detail-view .nodeinfo-form {
+    flex: 1;
+    padding: var(--lumo-space-m);
+}
+
+@media all and (max-width: 1100px) {
+    .list-view.editing .toolbar,
+    .list-view.editing .nodeinfo-grid {
+        display: none;
+    }
+} 
